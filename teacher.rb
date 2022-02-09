@@ -12,8 +12,6 @@ class Teacher < Person
   end
 end
 
-teacher1 = Teacher.new('teaching',28)
 
-puts teacher1
 
 

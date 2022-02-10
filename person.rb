@@ -1,5 +1,5 @@
 require './corrector'
-
+require './rental'
 class Person
   attr_reader :id
   attr_accessor :name, :age
@@ -10,6 +10,7 @@ class Person
     @age = age
     @parent_permission = parent_permission
     @corrector = Corrector.new
+    @rentals = []
   end
 
   def can_use_services?
@@ -18,6 +19,10 @@ class Person
 
   def validate_name
     @name = @corrector.correct_name(name)
+  end
+
+  def add_rental(date,person)
+    Rental.new(date,self,person)
   end
 
   private

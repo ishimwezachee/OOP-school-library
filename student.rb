@@ -3,12 +3,12 @@ require './person'
 class Student < Person
   attr_accessor :classroom
 
-  def initialize(classroom, age, _name = 'unknown', parent_permission: true)
-    super(age, _name = 'unknown', parent_permission: true)
+  def initialize(_classroom, age, _name = 'unknown', _parent_permission: true)
+    super(age, _name = 'unknown', _parent_permission: true)
     @classroom = classroom
   end
 
-  def classroom=(classroom)
+  def room_class(classroom)
     @classroom = classroom
     classroom.students.push(self) unless classroom.students.include?(self)
   end
@@ -17,4 +17,3 @@ class Student < Person
     "¯\(ツ)/¯"
   end
 end
-

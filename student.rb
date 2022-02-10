@@ -3,8 +3,8 @@ require './person'
 class Student < Person
   attr_accessor :classroom
 
-  def initialize(classroom, age, _name = 'unknown', _parent_permission: true)
-    super(age, _name = 'unknown', _parent_permission: true)
+  def initialize(classroom, age, _name = 'unknown', parent_permission: true)
+    super(age, _name = 'unknown', parent_permission: true)
     @classroom = classroom
   end
 
@@ -17,3 +17,4 @@ class Student < Person
     "¯\(ツ)/¯"
   end
 end
+

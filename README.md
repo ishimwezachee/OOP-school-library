@@ -17,24 +17,19 @@
 - git
 - linters
 
-## Getting Started
+## To get a local copy up and running follow these  steps
 
-To get a local copy up and running follow these simple example steps.
+- copy this link `https://github.com/ishimwezachee/OOP-school-library.git`.
+- get the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write `git clone https://github.com/ishimwezachee/OOP-school-library.git`.
+- go to the repository folder in your command prompt.
 
-Clone the project by using terminal:
-
-```
-git clone https://github.com/ishimwezachee/OOP-school-library.git
-
-cd into school-liberary
-
-bundle install
-
-rubocop
-
-rubocop -A
-
-```
+## To get started-:
+- run `bundle install`
+- Run `ruby main.rb` to run the School Library App!
+- Run `irb` to run the code by pasting it in the terminal.
+- Run `rubocop` to find and fix linters
 
 ### Prerequisites
 

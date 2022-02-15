@@ -5,7 +5,6 @@ describe Classroom do
   context 'It should create a new class with label' do
     classroom_one = Classroom.new
     classroom_one.intitialize('Maths')
-    student_one = Student.new(age: 10, classroom: nil, name: 'Cap', parent_permission: true)
 
     it 'should create new classroom with label' do
       expect(classroom_one.label).to eq 'Maths'

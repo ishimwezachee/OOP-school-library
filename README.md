@@ -35,12 +35,25 @@
 
 -Ruby
 
-# ZACHEE
+## Authors
 
-👤 **Author1**
+## Authors
+👤 **[ishimwezachee](https://github.com/ishimwezachee)**
 
-- GitHub: [@zacheeIshimwe](https://github.com/ishimwezachee)
-- LinkedIn: [@zacheeIshimwe](https://www.linkedin.com/in/zachee-ishimwe-ab952a119/)
+- GitHub: [@zachee-ishimwe](https://github.com/ishimwezachee)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zachee-ishimwe/)
+
+
+👤 **aku** 
+- GitHub: [@aakbarkhan](https://github.com/aakbarkhan)
+- LinkedIn: [[LinkedIn]](https://www.linkedin.com/in/akuu-khan/)
+  
+👤 **[RolandM99](https://github.com/RolandM99)**
+
+- GitHub: [@RolandM99](https://github.com/RolandM99)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/roland-mweze)
+
+
 
 
 ## 🤝 Contributing
